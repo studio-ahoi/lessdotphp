@@ -1,0 +1,8 @@
+lessdotphp
+----------
+Plugin for Redaxo addon SEO42
+
+Provides Less.php as a plugin for SEO42.
+
+http://lessphp.gpeasy.com/
+https://github.com/oyejorge/less.php
