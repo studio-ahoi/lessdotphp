@@ -2,10 +2,10 @@
 /**
  * less.php Plugin 
  *
- * @version 0.1 rev 140308
+ * @version 0.1 rev 140315
  * @author Matt Agar
  * @author Martin Jantošovič
- * @author Daniel Weitenauer
+ * @author Daniel Weitenauer - studio ahoi
  */
  
 $page = 'lessdotphp';

@@ -2,10 +2,10 @@
 /**
  * less.php Plugin 
  *
- * @version 0.1 rev 140308
+ * @version 0.1 rev 140315
  * @author Matt Agar
  * @author Martin Jantošovič
- * @author Daniel Weitenauer
+ * @author Daniel Weitenauer - studio ahoi
  */
 
 $page = 'lessdotphp';
@@ -19,7 +19,7 @@ $REX['ADDON']['author'][$page] = 'Matt Agar, Martin Jantošovič, Daniel Weitena
 $REX['ADDON']['supportpage'][$page] = 'forum.redaxo.de';
 
 if (!$REX['SETUP']) {
-	rex_register_extension('COMPILE_LESS', 'ahoi_compile_lessdotphp');
+	rex_register_extension('SEO42_COMPILE_LESS', 'ahoi_compile_lessdotphp');
 }
 
 function ahoi_compile_lessdotphp($params) 
@@ -27,10 +27,11 @@ function ahoi_compile_lessdotphp($params)
 	require_once (__DIR__.'/lib/lessc.php');
 
 	$less = new lessc();
+	$less->setImportDir($params['path']);
 	$less->setFormatter('compressed');
 	$less->setPreserveComments(true);
 	$less->setVariables($params['vars']);
 	$compiledCSS = $less->compile($params['subject']);
-	
+
 	return $compiledCSS;
 }
