@@ -8,7 +8,7 @@
  * @author Daniel Weitenauer - studio ahoi
  */
 
-$page = 'lessdotphp';
+// $page = 'lessdotphp';
 
 // Configuration
 $REX['ADDON']['rxid'][$page] = $page;
