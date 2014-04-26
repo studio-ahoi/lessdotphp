@@ -13,7 +13,7 @@ $page = 'lessdotphp';
 // Configuration
 $REX['ADDON']['rxid'][$page] = $page;
 $REX['ADDON']['page'][$page] = $page;
-$REX['ADDON']['name'][$page] = 'Less.php';
+#$REX['ADDON']['name'][$page] = 'Less.php';
 $REX['ADDON']['version'][$page] = '0.1';
 $REX['ADDON']['author'][$page] = 'Matt Agar, Martin Jantošovič, Daniel Weitenauer - studio ahoi';
 $REX['ADDON']['supportpage'][$page] = 'forum.redaxo.de';
