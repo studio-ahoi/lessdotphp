@@ -4,5 +4,7 @@ Plugin for Redaxo addon SEO42
 
 Provides Less.php as a plugin for SEO42.
 
+Less.php Version 1.7.0.4
+
 http://lessphp.gpeasy.com/
 https://github.com/oyejorge/less.php

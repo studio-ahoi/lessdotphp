@@ -2,7 +2,7 @@
 /**
  * less.php Plugin 
  *
- * @version 0.1 rev 140315
+ * @version 1.7.0.4 - 150701
  * @author Matt Agar
  * @author Martin Jantošovič
  * @author Daniel Weitenauer - studio ahoi
